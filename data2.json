@@ -6,7 +6,7 @@
         "date" : "2010.10",
         "class" : "img-angular",
         "detailClass" : "detail-angular",
-        "img" : "angularBg"
+        "alt" : "Angular"
       },
 
       {
@@ -17,6 +17,7 @@
         "class" : "img-react",
         "detailClass" : "detail-react",
         "img" : "reactBg"
+        "alt" : "React"
       },
 
       {
@@ -27,5 +28,6 @@
         "class" : "img-vue",
         "detailClass" : "detail-vue",
         "img" : "vueBg"
+        "alt" : "Vue"
       }
 ]

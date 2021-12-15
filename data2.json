@@ -15,7 +15,6 @@
         "date" : "2013.05",
         "class" : "img-react",
         "detailClass" : "detail-react",
-        "img" : "reactBg"
         "alt" : "React"
       },
       {
@@ -25,7 +24,6 @@
         "date" : "2014.02",
         "class" : "img-vue",
         "detailClass" : "detail-vue",
-        "img" : "vueBg"
         "alt" : "Vue"
       }
 ]

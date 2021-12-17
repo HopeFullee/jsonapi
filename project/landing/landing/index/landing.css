@@ -1,0 +1,282 @@
+@charset "utf-8";
+@import url('../reset.css');
+
+body {
+    background-color: rgb(51, 51, 51);
+}
+.wrap-all {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.menu-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.menu-1 {
+    background: url('../landing_img/ferris-wheel.jpg');
+}
+.menu-2 {
+    background: url('../landing_img/flexible-girl.jpg');
+}
+.menu-3 {
+    background: url('../landing_img/night-city.jpg');
+}
+.menu {
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-frame {
+  
+  
+}
+
+.menu-title {
+  font-size: 72px;
+  font-weight: bold;
+  color: #CAEFD1;
+  -webkit-text-stroke: 2px black;
+  transition: all 1.5s ease-in-out;
+}
+
+
+
+.expand {
+    flex: 100%;
+    transition: 1s ease-in-out;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+/************    CONTENT SECTION    ************/
+
+.content-container {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    background-color: #FFF2CC;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-border {
+  width: 1400px;
+  height: 90%;
+}
+
+
+
+
+
+/***   CONTENT TOP   ***/
+
+.con-top {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.con-title {
+  font-size: 72px;
+  font-weight: bold;
+  color: white;
+}
+
+.con-back {
+  
+}
+
+.con-back > a {
+  font-size: 52px;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+
+
+/***   CONTENT BOTTOM   ***/
+
+.con-btm {
+  width: 100%;
+  height: 90%;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+.flex {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fade-out {
+    animation: fadeOut ease 2.5s;
+    -webkit-animation: fadeOut ease 2.5s;
+    -moz-animation: fadeOut ease 2.5s;
+    -o-animation: fadeOut ease 2.5s;
+    -ms-animation: fadeOut ease 2.5s;
+  }
+  @keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-moz-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-webkit-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-o-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-ms-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+  }
+}
+
+
+
+.fade-in {
+    animation: fadeIn ease 1.5s;
+    -webkit-animation: fadeIn ease 1.5s;
+    -moz-animation: fadeIn ease 1.5s;
+    -o-animation: fadeIn ease 1.5s;
+    -ms-animation: fadeIn ease 1.5s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+}
